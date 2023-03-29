@@ -1,0 +1,21 @@
+{
+  "name": "seed-phrase-shot",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "gsap": "^3.11.4",
+    "three": "^0.148.0",
+    "lil-gui": "^0.17.0"
+  }
+}

@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Libertad Mono';
+    src: url('/LibertadMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow: hidden;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+}
+
+.app {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Libertad Mono' ,sans-serif;
+    height: 100vh;
+}
+
+.app__title {
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    line-height: 110px;
+}
+
+.app__nav {
+    width: 100vw;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app__nav__leading {
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.app__nav__trailing {
+    padding-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.app__nav__leading__item {
+    margin-right: 80px;
+}
+
+.app__nav__trailing {
+    width: 15%;
+}
+
+.app__button {
+    background: #C5D3D1;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 48px;
+    width: 90%;
+    cursor: pointer;
+    transition: 0.15s ease-in;
+}
+
+.app__button:hover {
+    background: #A8BDBCFF;
+}
+
+.app__button__content {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Libertad Mono' ,sans-serif;
+}

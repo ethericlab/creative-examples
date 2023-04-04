@@ -1,0 +1,22 @@
+{
+  "name": "planes-image-gallery",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^4.0.4",
+    "vite-plugin-glsl": "^1.0.2"
+  },
+  "dependencies": {
+    "gsap": "^3.11.4",
+    "lodash": "^4.17.21",
+    "three": "^0.148.0"
+  }
+}
